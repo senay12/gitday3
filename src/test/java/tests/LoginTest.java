@@ -10,10 +10,13 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 public class LoginTest {
     WebDriver driver;
+    Map<String,String> myMap=new HashMap<String, String>();
 
     @BeforeMethod
     public void setUp() {
