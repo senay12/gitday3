@@ -35,7 +35,7 @@ public class LoginTest {
 
     @AfterMethod
     public void cleanUp() {
-        driver.close();
+      //  driver.close();
     }
 
 }
